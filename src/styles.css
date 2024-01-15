@@ -1,0 +1,45 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.card {
+  position: absolute;
+  left: 30px;
+  top: 30px;
+  border: 10px solid rgb(112, 98, 98);
+  height: 650px;
+  width: 450px;
+}
+img {
+  height: 300px;
+  width: 431px;
+  object-fit: fill;
+}
+.intro {
+  padding: 10px;
+  margin: 20px;
+}
+h1 {
+  padding-bottom: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.intro > p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#p {
+  border: 1px solid black;
+  min-width: 100px;
+  margin: 5px 20px;
+  padding: 3px;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 600;
+
+  border-radius: 5px;
+}
+.skilllist {
+  display: flex;
+  flex-wrap: wrap;
+}
